@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <!-- Activity bar color -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!-- Status bar color -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!-- Button color -->
+        <item name="colorAccent">#2db300</item>
+        <!-- Edit text color -->
+        <item name="editTextColor">#52cd32</item>
+        <!-- Button text style -->
+        <item name="android:buttonStyle">@style/ButtonTextColor</item>
+    </style>
+
+    <!-- Button text color -->
+    <style name="ButtonTextColor" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="lehoTestTheme" parent="AppTheme" />
+
+</resources>

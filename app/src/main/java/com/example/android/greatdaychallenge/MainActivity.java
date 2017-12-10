@@ -73,9 +73,6 @@ public class MainActivity extends AppCompatActivity {
             if (scoreA > scoreB) {
                 whoWinA = "I´m better";
                 whoWinB = "Step on!";
-            } else {
-                whoWinB = "I´m better";
-                whoWinA = "Step on!";
             }
         }
 
@@ -101,9 +98,6 @@ public class MainActivity extends AppCompatActivity {
             if (scoreA > scoreB) {
                 whoWinA = "I´m great";
                 whoWinB = "Step on!";
-            } else {
-                whoWinA = "I´m great";
-                whoWinB = "Step on!";
             }
         }
         displayScoreA(scoreA);
@@ -126,9 +120,6 @@ public class MainActivity extends AppCompatActivity {
             whoWinB = "draw";
         } else {
             if (scoreA > scoreB) {
-                whoWinA = "I´m amazing";
-                whoWinB = "Step on!";
-            } else {
                 whoWinA = "I´m amazing";
                 whoWinB = "Step on!";
             }
@@ -156,9 +147,6 @@ public class MainActivity extends AppCompatActivity {
             if (scoreA > scoreB) {
                 whoWinA = "I´m best";
                 whoWinB = "Step on!";
-            } else {
-                whoWinA = "I´m best";
-                whoWinB = "Step on!";
             }
         }
         displayScoreA(scoreA);
@@ -180,9 +168,6 @@ public class MainActivity extends AppCompatActivity {
             whoWinB = "draw";
         } else {
             if (scoreA > scoreB) {
-                whoWinA = "Great!!!";
-                whoWinB = "Step on!";
-            } else {
                 whoWinA = "Great!!!";
                 whoWinB = "Step on!";
             }
@@ -207,9 +192,6 @@ public class MainActivity extends AppCompatActivity {
             if (scoreA > scoreB) {
                 whoWinA = "Nooo :-(";
                 whoWinB = "Step on!";
-            } else {
-                whoWinA = "Nooo :-(";
-                whoWinB = "Step on!";
             }
         }
         displayScoreA(scoreA);
@@ -232,9 +214,6 @@ public class MainActivity extends AppCompatActivity {
             if (scoreA > scoreB) {
                 whoWinA = "Great work";
                 whoWinB = "Step on!";
-            } else {
-                whoWinA = "Great work";
-                whoWinB = "Step on!";
             }
         }
         displayScoreA(scoreA);
@@ -255,9 +234,6 @@ public class MainActivity extends AppCompatActivity {
             whoWinB = "draw";
         } else {
             if (scoreA > scoreB) {
-                whoWinA = "Amazing!";
-                whoWinB = "Step on!";
-            } else {
                 whoWinA = "Amazing!";
                 whoWinB = "Step on!";
             }
@@ -329,9 +305,6 @@ public class MainActivity extends AppCompatActivity {
             if (scoreA < scoreB) {
                 whoWinB = "I´m better";
                 whoWinA = "Step on!";
-            } else {
-                whoWinB = "I´m better";
-                whoWinA = "Step on!";
             }
         }
 
@@ -357,9 +330,6 @@ public class MainActivity extends AppCompatActivity {
             if (scoreA < scoreB) {
                 whoWinB = "I´m great";
                 whoWinA = "Step on!";
-            } else {
-                whoWinB = "I´m great";
-                whoWinA = "Step on!";
             }
         }
         displayScoreB(scoreB);
@@ -382,9 +352,6 @@ public class MainActivity extends AppCompatActivity {
             whoWinB = "draw";
         } else {
             if (scoreA < scoreB) {
-                whoWinB = "I´m amazing";
-                whoWinA = "Step on!";
-            } else {
                 whoWinB = "I´m amazing";
                 whoWinA = "Step on!";
             }
@@ -412,9 +379,6 @@ public class MainActivity extends AppCompatActivity {
             if (scoreA < scoreB) {
                 whoWinB = "I´m best";
                 whoWinA = "Step on!";
-            } else {
-                whoWinB = "I´m best";
-                whoWinA = "Step on!";
             }
         }
         displayScoreB(scoreB);
@@ -436,9 +400,6 @@ public class MainActivity extends AppCompatActivity {
             whoWinB = "draw";
         } else {
             if (scoreA < scoreB) {
-                whoWinB = "Great!!!";
-                whoWinA = "Step on!";
-            } else {
                 whoWinB = "Great!!!";
                 whoWinA = "Step on!";
             }
@@ -463,9 +424,6 @@ public class MainActivity extends AppCompatActivity {
             if (scoreA < scoreB) {
                 whoWinB = "Nooo :-(";
                 whoWinA = "Step on!";
-            } else {
-                whoWinB = "Nooo :-(";
-                whoWinA = "Step on!";
             }
         }
         displayScoreB(scoreB);
@@ -488,9 +446,6 @@ public class MainActivity extends AppCompatActivity {
             if (scoreA < scoreB) {
                 whoWinB = "Great work";
                 whoWinA = "Step on!";
-            } else {
-                whoWinB = "Great work";
-                whoWinA = "Step on!";
             }
         }
         displayScoreB(scoreB);
@@ -511,9 +466,6 @@ public class MainActivity extends AppCompatActivity {
             whoWinB = "draw";
         } else {
             if (scoreA < scoreB) {
-                whoWinB = "Amazing!";
-                whoWinA = "Step on!";
-            } else {
                 whoWinB = "Amazing!";
                 whoWinA = "Step on!";
             }

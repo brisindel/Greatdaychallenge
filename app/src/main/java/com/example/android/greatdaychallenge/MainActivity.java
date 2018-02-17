@@ -32,8 +32,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        /** Delete EditText on click on button - I call this instead of onCreate in activity_main.xml layout
-         *
+        /**
+         * Delete EditText on click on button - I call this instead of onCreate in activity_main.xml layout
          */
 
         final Button btnDeleteB = (Button) findViewById(R.id.deleteB);

@@ -1,3 +1,19 @@
 <resources>
-    <string name="app_name">Great day challenge</string>
+    <string name="app_name">SUPER day challenge</string>
+
+    <string name="hintEdt">type name</string>
+    <string name="startScore">0</string>
+
+    <string name="titleSport">Sport activity (min)</string>
+    <string name="titleHealthy">Healthy or junk food</string>
+    <string name="titleBonus">Bonus: skills and good</string>
+    <string name="titleSummary">super summary</string>
+
+    <string name="noActivities">Number of activities</string>
+    <string name="noActiveMinutes">Active minutes</string>
+    <string name="noHealthyfood">Healthy food</string>
+    <string name="noBonus">Bonus</string>
+
+    <string name="resetBtn">new day</string>
+
 </resources>

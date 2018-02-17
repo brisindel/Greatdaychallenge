@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="edtSize">16sp</dimen>
+    <dimen name="finalScoreSize">25sp</dimen>
+    <dimen name="whoWinSize">15sp</dimen>
+
+</resources>

@@ -162,7 +162,7 @@
                     <TextView
                         android:id="@+id/sumNoActivityA"
                         style="@style/sumNuStyle"
-                        android:textColor="#800080" />
+                        android:textColor="@color/purple" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -181,7 +181,7 @@
                         android:id="@+id/sumActiveMinutesA"
                         style="@style/sumNuStyle"
                         android:layout_height="match_parent"
-                        android:textColor="#800080" />
+                        android:textColor="@color/purple" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -200,7 +200,7 @@
                     <TextView
                         android:id="@+id/sumHealthyFoodA"
                         style="@style/sumNuStyle"
-                        android:textColor="#800080" />
+                        android:textColor="@color/purple" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -218,7 +218,7 @@
                     <TextView
                         android:id="@+id/sumBonusA"
                         style="@style/sumNuStyle"
-                        android:textColor="#800080" />
+                        android:textColor="@color/purple" />
 
                 </LinearLayout>
             </LinearLayout>
@@ -374,7 +374,7 @@
                     <TextView
                         android:id="@+id/sumNoActivityB"
                         style="@style/sumNuStyle"
-                        android:textColor="#800080" />
+                        android:textColor="@color/purple" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -392,7 +392,7 @@
                     <TextView
                         android:id="@+id/sumActiveMinutesB"
                         style="@style/sumNuStyle"
-                        android:textColor="#800080" />
+                        android:textColor="@color/purple" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -411,7 +411,7 @@
                     <TextView
                         android:id="@+id/sumHealthyFoodB"
                         style="@style/sumNuStyle"
-                        android:textColor="#800080" />
+                        android:textColor="@color/purple" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -429,7 +429,7 @@
                     <TextView
                         android:id="@+id/sumBonusB"
                         style="@style/sumNuStyle"
-                        android:textColor="#800080" />
+                        android:textColor="@color/purple" />
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
@@ -446,7 +446,7 @@
             <TextView
                 android:id="@+id/whoWinA"
                 style="@style/whoWinStyle"
-                android:textColor="#800080" />
+                android:textColor="@color/purple" />
 
             <Button
                 android:id="@+id/newDay"
@@ -454,15 +454,15 @@
                 android:layout_gravity="center"
                 android:layout_marginBottom="10dp"
                 android:layout_marginTop="10dp"
-                android:background="#800080"
+                android:background="@color/purple"
                 android:onClick="startNewDay"
                 android:text="@string/resetBtn"
-                android:textColor="#ffffff" />
+                android:textColor="@color/white" />
 
             <TextView
                 android:id="@+id/whoWinB"
                 style="@style/whoWinStyle"
-                android:textColor="#800080" />
+                android:textColor="@color/purple" />
         </LinearLayout>
     </RelativeLayout>
 </ScrollView>

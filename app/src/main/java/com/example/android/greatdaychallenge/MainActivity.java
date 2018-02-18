@@ -12,30 +12,27 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-    int scoreA = 0;
-    int scoreB = 0;
-    int sumNoActivityA = 0;
-    int sumActiveMinutesA = 0;
-    int sumHealthyFoodA = 0;
-    int sumBonusA = 0;
-    int sumNoActivityB = 0;
-    int sumActiveMinutesB = 0;
-    int sumHealthyFoodB = 0;
-    int sumBonusB = 0;
-    String whoWinA = "";
-    String whoWinB = "";
-
+    private int scoreA = 0;
+    private int scoreB = 0;
+    private int sumNoActivityA = 0;
+    private int sumActiveMinutesA = 0;
+    private int sumHealthyFoodA = 0;
+    private int sumBonusA = 0;
+    private int sumNoActivityB = 0;
+    private int sumActiveMinutesB = 0;
+    private int sumHealthyFoodB = 0;
+    private int sumBonusB = 0;
+    private String whoWinA = "";
+    private String whoWinB = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
         /**
          * Delete EditText on click on button - I call this instead of onCreate in activity_main.xml layout
          */
-
         final Button btnDeleteB = (Button) findViewById(R.id.deleteB);
         final EditText etPlayerNameB = (EditText) findViewById(R.id.playerNameB);
 
@@ -57,11 +54,10 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-
     /**
      * Add 30 minutes for player A, add +1 sum activity number, add 30 minutes summary minutes.
      */
-    protected void add30MinutesA(View view) {
+    public void add30MinutesA(View view) {
         scoreA = (scoreA + 30);
         sumNoActivityA = (sumNoActivityA + 1);
         sumActiveMinutesA = (sumActiveMinutesA + 30);
@@ -86,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
     /**
      * Add 60 minutes for player A, add +1 sum activity number, add 60 minutes summary minutes.
      */
-    protected void add60MinutesA(View view) {
+    public void add60MinutesA(View view) {
         scoreA = (scoreA + 60);
         sumNoActivityA = (sumNoActivityA + 1);
         sumActiveMinutesA = (sumActiveMinutesA + 60);
@@ -110,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
     /**
      * Add 90 minutes for player A, add +1 sum activity number, add 90 minutes summary minutes.
      */
-    protected void add90MinutesA(View view) {
+    public void add90MinutesA(View view) {
         scoreA = (scoreA + 90);
         sumNoActivityA = (sumNoActivityA + 1);
         sumActiveMinutesA = (sumActiveMinutesA + 90);
@@ -135,7 +131,7 @@ public class MainActivity extends AppCompatActivity {
     /**
      * Add 120 minutes for player A, add +1 sum activity number, add 90 minutes summary minutes.
      */
-    protected void add120MinutesA(View view) {
+    public void add120MinutesA(View view) {
         scoreA = (scoreA + 120);
         sumNoActivityA = (sumNoActivityA + 1);
         sumActiveMinutesA = (sumActiveMinutesA + 120);
@@ -159,7 +155,7 @@ public class MainActivity extends AppCompatActivity {
     /**
      * Add 30 minutes for Healthy food for player A, add 30 minutes for summary Healthy.
      */
-    protected void add30HealthyA(View view) {
+    public void add30HealthyA(View view) {
         scoreA = (scoreA + 30);
         sumHealthyFoodA = (sumHealthyFoodA + 30);
 
@@ -181,7 +177,7 @@ public class MainActivity extends AppCompatActivity {
     /**
      * Lose 30 minutes for Junky food for player A, lose 30 minutes for summary Healthy.
      */
-    protected void lose30HealthyA(View view) {
+    public void lose30HealthyA(View view) {
         scoreA = (scoreA - 30);
         sumHealthyFoodA = (sumHealthyFoodA - 30);
 
@@ -203,7 +199,7 @@ public class MainActivity extends AppCompatActivity {
     /**
      * Add 30 for New skills for player A and 30 to summary Bonus.
      */
-    protected void add30SkillsA(View view) {
+    public void add30SkillsA(View view) {
         scoreA = (scoreA + 30);
         sumBonusA = (sumBonusA + 30);
 
@@ -225,7 +221,7 @@ public class MainActivity extends AppCompatActivity {
     /**
      * Add 30 for Goodnes for player A and 30 to summary Bonus.
      */
-    protected void add30GoodA(View view) {
+    public void add30GoodA(View view) {
         scoreA = (scoreA + 30);
         sumBonusA = (sumBonusA + 30);
 
@@ -243,7 +239,6 @@ public class MainActivity extends AppCompatActivity {
         displayWhoWinA(whoWinA);
         displayWhoWinB(whoWinB);
     }
-
 
     /**
      * Displays the given score for Player A.
@@ -289,11 +284,10 @@ public class MainActivity extends AppCompatActivity {
      * second part of layout
      */
 
-
     /**
      * Add 30 minutes for Player B, add +1 sum activity number, add 30 minutes summary minutes.
      */
-    protected void add30MinutesB(View view) {
+    public void add30MinutesB(View view) {
         scoreB = (scoreB + 30);
         sumNoActivityB = (sumNoActivityB + 1);
         sumActiveMinutesB = (sumActiveMinutesB + 30);
@@ -318,7 +312,7 @@ public class MainActivity extends AppCompatActivity {
     /**
      * Add 60 minutes for Player B, add +1 sum activity number, add 60 minutes summary minutes.
      */
-    protected void add60MinutesB(View view) {
+    public void add60MinutesB(View view) {
         scoreB = (scoreB + 60);
         sumNoActivityB = (sumNoActivityB + 1);
         sumActiveMinutesB = (sumActiveMinutesB + 60);
@@ -342,7 +336,7 @@ public class MainActivity extends AppCompatActivity {
     /**
      * Add 90 minutes for player B, add +1 sum activity number, add 90 minutes summary minutes.
      */
-    protected void add90MinutesB(View view) {
+    public void add90MinutesB(View view) {
         scoreB = (scoreB + 90);
         sumNoActivityB = (sumNoActivityB + 1);
         sumActiveMinutesB = (sumActiveMinutesB + 90);
@@ -367,7 +361,7 @@ public class MainActivity extends AppCompatActivity {
     /**
      * Add 120 minutes for player B, add +1 sum activity number, add 90 minutes summary minutes.
      */
-    protected void add120MinutesB(View view) {
+    public void add120MinutesB(View view) {
         scoreB = (scoreB + 120);
         sumNoActivityB = (sumNoActivityB + 1);
         sumActiveMinutesB = (sumActiveMinutesB + 120);
@@ -391,7 +385,7 @@ public class MainActivity extends AppCompatActivity {
     /**
      * Add 30 minutes for Healthy food for player B, add 30 minutes for summary Healthy.
      */
-    protected void add30HealthyB(View view) {
+    public void add30HealthyB(View view) {
         scoreB = (scoreB + 30);
         sumHealthyFoodB = (sumHealthyFoodB + 30);
 
@@ -413,7 +407,7 @@ public class MainActivity extends AppCompatActivity {
     /**
      * Lose 30 minutes for Junky food for player B, lose 30 minutes for summary Healthy.
      */
-    protected void lose30HealthyB(View view) {
+    public void lose30HealthyB(View view) {
         scoreB = (scoreB - 30);
         sumHealthyFoodB = (sumHealthyFoodB - 30);
 
@@ -435,7 +429,7 @@ public class MainActivity extends AppCompatActivity {
     /**
      * Add 30 for New skills for player B and 30 to summary Bonus.
      */
-    protected void add30SkillsB(View view) {
+    public void add30SkillsB(View view) {
         scoreB = (scoreB + 30);
         sumBonusB = (sumBonusB + 30);
 
@@ -457,7 +451,7 @@ public class MainActivity extends AppCompatActivity {
     /**
      * Add 30 for Goodnes for player B and 30 to summary Bonus.
      */
-    protected void add30GoodB(View view) {
+    public void add30GoodB(View view) {
         scoreB = (scoreB + 30);
         sumBonusB = (sumBonusB + 30);
 
@@ -550,7 +544,6 @@ public class MainActivity extends AppCompatActivity {
     /**
      * Displays who has higher score.
      */
-
     public void displayWhoWinA(String score) {
         TextView scoreView = (TextView) findViewById(R.id.whoWinA);
         scoreView.setText(String.valueOf(score));
@@ -560,7 +553,6 @@ public class MainActivity extends AppCompatActivity {
         TextView scoreView = (TextView) findViewById(R.id.whoWinB);
         scoreView.setText(String.valueOf(score));
     }
-
 
     /**
      * Hide soft keyboard after click outside EditText
@@ -603,8 +595,9 @@ public class MainActivity extends AppCompatActivity {
         outState.putString("whoWinA", whoWinA);
         outState.putString("whoWinB", whoWinB);
     }
-    /**this method will restore all the data saves in the previous method, when rotating the device*/
+
     /**
+     * This method will restore all the data saves in the previous method, when rotating the device
      * for this to work you need to give every item that you want to be saves when rotating the device - a specific id on the xml file
      */
     @Override
